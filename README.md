@@ -45,11 +45,11 @@ spell by 1 point. 'fe' can occur only once and 'ai' always end the spell. If you
 biggest damage (in example fedaineai: fe-dai-ne-ai: 2+5+2+2, not fe-d-ain-e-ai 2-1+3-1+2).
 Method should return 0 if damage is negative or if spell is incorrect.
 
-def damage(spell):
-"""
-Function calculating damage
-:param str spell: string with spell
-:rtype: int
-:return: points of damage
-"""
-pass
+    def damage(spell):
+    """
+    Function calculating damage
+    :param str spell: string with spell
+    :rtype: int
+    :return: points of damage
+    """
+    pass
